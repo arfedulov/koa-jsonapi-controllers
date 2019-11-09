@@ -72,7 +72,7 @@ class PostController extends BaseController {
   name = 'posts';
 
   getSingleResource = async (ctx: JsonapiContext) => {
-    const jsonapiParams = ctx.[JSON_API_URL_PARAMS_KEY];
+    const jsonapiParams = ctx[JSON_API_URL_PARAMS_KEY];
     // ......
   }
 }

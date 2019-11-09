@@ -6,6 +6,7 @@
     "name": "Artem Fedulov",
     "email": "arfedulov@gmail.com"
   },
+  "description": "jsonapi controllers for koa",
   "license": "MIT",
   "private": true,
   "repository": {

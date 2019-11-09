@@ -8,13 +8,13 @@
   },
   "description": "jsonapi controllers for koa",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/arfedulov/koa-controllers.git"
+    "url": "https://github.com/arfedulov/koa-jsonapi-controllers.git"
   },
   "bugs": {
-    "url": "https://github.com/arfedulov/koa-controllers/issues",
+    "url": "https://github.com/arfedulov/koa-jsonapi-controllers/issues",
     "email": "arfedulov@gmail.com"
   },
   "keywords": [
@@ -23,16 +23,18 @@
     "controller",
     "typescript"
   ],
+  "peerDependencies": {
+    "koa": "^2.11.0"
+  },
   "dependencies": {
     "@arfedulov/json-api-url-parser": "^0.1.1",
-    "@arfedulov/koa-jsonapi-errors": "^0.1.1",
+    "@arfedulov/koa-jsonapi-errors": "^0.1.2"
+  },
+  "devDependencies": {
     "@types/jest": "^24",
     "@types/koa": "^2.0.52",
     "@types/node": "^12",
-    "@types/supertest": "^2.0.8",
     "jest": "^24",
-    "koa": "^2.11.0",
-    "supertest": "^4.0.2",
     "ts-jest": "^24",
     "ts-node": "^8",
     "tslint": "^5",

@@ -1,5 +1,5 @@
 {
-  "name": "@arfedulov/koa-controllers",
+  "name": "@arfedulov/koa-jsonapi-controllers",
   "version": "0.1.0",
   "main": "dist/index.js",
   "author": {
@@ -16,6 +16,12 @@
     "url": "https://github.com/arfedulov/koa-controllers/issues",
     "email": "arfedulov@gmail.com"
   },
+  "keywords": [
+    "koa",
+    "jsonapi",
+    "controller",
+    "typescript"
+  ],
   "dependencies": {
     "@arfedulov/json-api-url-parser": "^0.1.1",
     "@arfedulov/koa-jsonapi-errors": "^0.1.1",

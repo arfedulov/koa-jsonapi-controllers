@@ -2,6 +2,12 @@
 
 jsonapi controllers for koa.
 
+## Installation
+
+```
+yarn add @arfedulov/koa-jsonapi-controllers
+```
+
 ## Usage
 
 ```ts

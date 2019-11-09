@@ -1,6 +1,6 @@
 import { Context } from 'koa';
 import { parse as parseUrl, JsonApiUrlParams } from '@arfedulov/json-api-url-parser';
-import { NotFound, BadRequest } from '@arfedulov/koa-jsonapi-errors';
+import { NotFound } from '@arfedulov/koa-jsonapi-errors';
 
 import { BaseController } from './BaseController';
 import { RequestHandlersDict, JsonapiContext, JSON_API_URL_PARAMS_KEY } from './types';

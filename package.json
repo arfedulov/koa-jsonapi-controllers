@@ -1,0 +1,39 @@
+{
+  "name": "@arfedulov/koa-controllers",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "author": {
+    "name": "Artem Fedulov",
+    "email": "arfedulov@gmail.com"
+  },
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arfedulov/koa-controllers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arfedulov/koa-controllers/issues",
+    "email": "arfedulov@gmail.com"
+  },
+  "dependencies": {
+    "@arfedulov/json-api-url-parser": "^0.1.1",
+    "@arfedulov/koa-jsonapi-errors": "^0.1.1",
+    "@types/jest": "^24",
+    "@types/koa": "^2.0.52",
+    "@types/node": "^12",
+    "jest": "^24",
+    "koa": "^2.11.0",
+    "ts-jest": "^24",
+    "ts-node": "^8",
+    "tslint": "^5",
+    "typescript": "^3"
+  },
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "check": "tsc --noEmit",
+    "prebuild": "rm -rf dist && yarn test",
+    "build": "npx tsc -p tsconfig.build.json --declaration",
+    "prepublish": "yarn build"
+  }
+}
